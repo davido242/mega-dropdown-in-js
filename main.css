@@ -29,30 +29,37 @@ body {
     color: var(--color-white);
     font-size: 30px;
 }
+
 .logo span {
     color: var(--color-primary);
 }
-.menu-bar ul{
+
+.menu-bar ul {
     list-style: none;
     display: flex;
 }
+
 .menu-bar ul li {
     padding: 10px 30px;
     position: relative;
 }
+
 .menu-bar ul li a {
     color: var(--color-white);
     text-decoration: none;
     font-size: 20px;
     transition: all 0.3s;
 }
+
 .menu-bar ul li a:hover {
     color: var(--color-primary);
 }
+
 .dropdown-menu {
     display: none;
 }
-.menu-bar ul li:hover .dropdown-menu{
+
+.menu-bar ul li:hover .dropdown-menu {
     position: absolute;
     display: block;
     top: 100%;
@@ -64,6 +71,7 @@ body {
     display: block;
     margin: 10px;
 }
+
 .menu-bar ul li:hover .dropdown-menu ul li {
     width: 150px;
     padding: 10px;
@@ -73,14 +81,15 @@ body {
     display: none;
 }
 
-.dropdown-menu ul li:hover .dropdown-menu-1{
+.dropdown-menu ul li:hover .dropdown-menu-1 {
     display: block;
     position: absolute;
     top: 0;
     left: 150px;
     background-color: var(--color-black);
 }
-.hero{
+
+.hero {
     height: calc(100vh - 80px);
     background-image: url(./relaxxe.png);
     background-position: center;
